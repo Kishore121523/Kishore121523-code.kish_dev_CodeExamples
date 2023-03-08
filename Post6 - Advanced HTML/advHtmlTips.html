@@ -1,0 +1,115 @@
+<!-- Boilerplate -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HTML Boilerplate </title>
+</head>
+
+<style>
+    body {
+        background: #242424;
+        padding: 2rem 5rem;
+        min-height: 100vh;
+    }
+    
+    p {
+        font-weight: bold;
+        color: #F4AE95;
+    }
+    
+    span,
+    summary,
+    details,
+    label,
+    h1,
+    a {
+        color: #D6D4D4;
+    }
+    
+    h1 {
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+    
+    hr {
+        margin: 2rem 0;
+    }
+</style>
+
+<body>
+
+    <h1>Advanced HTML and Tricks</h1>
+
+    <!-- Progress tags is used to represent the progress of a task -->
+    <p>Progress tag example</p>
+    <progress value="25" max="100"></progress>
+
+    <hr>
+
+    <!-- Meter tags are used to measure data within given range -->
+    <p>Meter tag example</p>
+    <meter value="2" min="0" max="10"></meter>
+    <meter value="0.6">60%</meter>
+
+    <hr>
+
+    <!-- Input suggestions -->
+    <p>Input suggestion example</p>
+    <span>Choose an item</span>
+    <input type="text" list="items">
+    <datalist id="items">
+        <option value="Item1"></option>
+        <option value="Item2"></option>
+        <option value="Item3"></option>
+        <option value="Item4"></option>
+        <option value="Item5"></option>
+    </datalist>
+
+    <hr>
+
+    <!-- Content-editable attribute -->
+    <p>Click the below paragraph to edit the content</p>
+    <span contenteditable="true">This is an editable paragraph.</span>
+
+    <hr>
+
+    <!-- Color picker -->
+    <p>Color picker example</p>
+    <label for="colorPicker">Pick color</label>
+    <input type="color" id="colorPicker">
+
+    <hr>
+
+    <!-- Accordian using plain HTML -->
+    <p>Accordian Example</p>
+    <details>
+        <summary>Open Me</summary>
+        <span>This is the brief summary. Lorem ipsum, dolor sit
+            amet consectetur rem harum eaque? Porro!
+        </span>
+    </details>
+
+    <hr>
+
+    <!-- Call directly from website -->
+    <p>Call someone from browser example</p>
+    <span>Call John:</span>
+    <a href="tel:737321xxxx">Click to call</a>
+
+    <!-- Download files from website -->
+    <p>Download image on click from browser example</p>
+    <span>Rick and Morty Wallpaper</span>
+    <a href="./rickAndMorty.jpg" download>Download Wallpaper</a>
+
+
+
+
+
+
+</body>
+
+</html>
