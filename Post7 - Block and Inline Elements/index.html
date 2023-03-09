@@ -1,0 +1,89 @@
+<!-- Boilerplate -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Block and Inline elements </title>
+</head>
+
+<style>
+  * {
+    background: #242424;
+  }
+
+  body {
+    padding: 2rem 5rem;
+    min-height: 100vh;
+    color: #D6D4D4;
+    font-size: 19px;
+  }
+
+  p,
+  div,
+  h4 {
+    background: rgb(21, 21, 21);
+    padding: 8px;
+  }
+
+  a {
+    background: rgb(21, 21, 21);
+    padding: 8px;
+  }
+
+  input {
+    background: rgb(21, 21, 21);
+    padding: 8px;
+  }
+
+  img {
+    height: 3rem;
+  }
+
+  .block-elements,
+  .inline-elements {
+    background: none;
+    background: #4f4f4f;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 13px;
+  }
+
+  .headingTag {
+    background: none;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  a {
+    color: white;
+  }
+</style>
+
+<body>
+
+  <div class="block-elements">
+    <h2 class="headingTag">Block Elements Example</h2>
+    <!-- Block elements -->
+    <p>Paragraph tag is a block level element.</p>
+    <div>I take the entire width of my parent and don't care about other tags, lol!</div>
+    <h4>I like my personal space and hence I have border around me.</h4>
+  </div>
+
+
+
+  <div class="inline-elements">
+    <h2 class="headingTag">Inline Elements Example</h2>
+    <!-- Inline elements -->
+    <a href="#">Anchor link is an inline element</a>
+    <label>Name</label>
+    <input placeholder="Enter name" type="text">
+    <img src="../Post6 - Advanced HTML/rickAndMorty.jpg" alt="">
+    <span>I don't take the entire width of the screen and I like to give the available space to others.</span>
+  </div>
+
+</body>
+
+</html>
