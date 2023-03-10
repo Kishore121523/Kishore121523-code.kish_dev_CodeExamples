@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <title> CSS Selectors </title>
+  <style>
+    * {
+      background: #242424;
+    }
+
+    #nameDivID {
+      color: aqua;
+    }
+
+    .nameDivClass {
+      color: rgb(170, 228, 23);
+    }
+
+    span.nameDivClass {
+      color: rgb(253, 1, 244);
+    }
+
+    p {
+      font-size: 25px;
+    }
+
+    p,
+    span {
+      background: #5b4402;
+      margin: 1rem 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <p id="nameDivID">I am selected by my Id</p>
+  <p class="nameDivClass">I am selected by my classname</p>
+  <span class="nameDivClass">
+    I am element with same
+    classname as the paragraph tag but selected
+    using element.classname type!
+  </span>
+
+</body>
+
+</html>
