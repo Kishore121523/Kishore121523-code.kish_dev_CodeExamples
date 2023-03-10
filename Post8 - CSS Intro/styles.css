@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body {
+    background: #242424;
+    font-family: 'Poppins', sans-serif;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    padding: 0 15rem;
+}
+
+
+/* The below is the only neccessary code, you can ignore the above code! It is just for aligning things. */
+
+.external {
+    color: white;
+    /* default value of text-align is left */
+    text-align: left;
+}
