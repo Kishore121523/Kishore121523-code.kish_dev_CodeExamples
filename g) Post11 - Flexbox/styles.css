@@ -1,0 +1,33 @@
+/* Presets */
+
+body {
+    background: #242424;
+    color: #242424;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+
+.box {
+    width: 7rem;
+    height: 7rem;
+    background: white;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+
+/* Presets End */
+
+
+/* Main Flex Box Properties */
+
+.outerDiv {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
